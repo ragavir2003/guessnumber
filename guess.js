@@ -17,16 +17,17 @@ function check()
 
     var enterednumber=guessnumber.value
     if(randomnumber==enterednumber)
-    
+        {
         console.log("Right")
         result.textContent="Right" 
         alert("YOU WON..")
-
-    else
     
+        }
+    else
+     {
         totalscore=totalscore-1
         score.textContent="score:"+totalscore
-        result.textContent="wrong"
+        result.textContent="wrong"}
     
 
 </script>
